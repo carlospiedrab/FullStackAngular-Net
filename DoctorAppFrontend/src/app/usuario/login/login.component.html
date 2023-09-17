@@ -1,0 +1,62 @@
+<section class="p-3 p-md-4 p-xl-5">
+  <div class="container">
+    <div class="card border-light-subtle shadow-sm">
+      <div class="row g-0">
+        <div class="col-12 col-md-6 text-bg-primary">
+          <div class="d-flex align-items-center justify-content-center h-100">
+            <div class="col-10 col-xl-8 py-3">
+              <img class="img-fluid rounded mb-4" loading="lazy" src="./assets/DoctorApp.png" width="245" height="80" alt="doctorApp">
+              <hr class="border-primary-subtle mb-4">
+              <p class="text-white">Un sistema clínico confiable y eficaz es la base de la atención centrada en el
+                paciente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card-body p-3 p-md-4 p-xl-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="mb-5">
+                  <h2 class="badge bg-primary text-wrap">Bienvenido</h2>
+                </div>
+              </div>
+            </div>
+            <form [formGroup]="formLogin" (ngSubmit)="iniciarSesion()">
+              <div class="row gy-3 gy-md-4 overflow-hidden">
+                <div class="col-12">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Username</mat-label>
+                    <input formControlName="username" matInput autocomplete="off">
+                    <mat-icon matSuffix>person</mat-icon>
+                  </mat-form-field>
+                </div>
+                <div class="col-12">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input [type]="ocultarPassword ? 'password' : 'text'" formControlName="password"
+                     matInput autocomplete="off">
+                     <button mat-icon-button matSuffix (click)="ocultarPassword = !ocultarPassword"
+                       type="button">
+                        <mat-icon matSuffix>{{ocultarPassword ? 'visibility_off': 'visibility'}}</mat-icon>
+                     </button>
+                  </mat-form-field>
+                </div>
+                <div class="col-12">
+                  <div class="d-grid">
+                    <button class="btn bsb-btn-xl btn-primary" type="submit" [disabled]="formLogin.invalid">
+                      Iniciar Sesion
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<mat-progress-bar mode="indeterminate" *ngIf="mostrarLoading"></mat-progress-bar>
+
