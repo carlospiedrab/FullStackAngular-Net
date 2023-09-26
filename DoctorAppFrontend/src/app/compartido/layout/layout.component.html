@@ -1,1 +1,34 @@
-<p>layout works!</p>
+<mat-toolbar color="primary">
+  <span>Doctor App</span>
+  <button mat-icon-button (click)="sidenav.toggle();">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span style="flex: 1 1 auto;;"></span>
+  <label style="font-size: 14px; margin-right: 20px;">{{username}}</label>
+  <button mat-icon-button (click)="cerrarSesion();">
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav opened mode="side" style="width: 220px; background: black;">
+    <mat-nav-list>
+      <mat-list-item routerLink="/layout/dashboard">
+        <mat-icon matListItemIcon style="color: white;">dashboard</mat-icon>
+        <div matListItemTitle style="color: white;">Dashboard</div>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon matListItemIcon style="color: white;">category</mat-icon>
+        <div matListItemTitle style="color: white;">Especialidades</div>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div style="height: 90vh;">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

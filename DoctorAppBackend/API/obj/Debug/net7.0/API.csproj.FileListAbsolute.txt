@@ -79,3 +79,9 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\BLL.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Utilidades.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\BLL.pdb
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Utilidades.pdb

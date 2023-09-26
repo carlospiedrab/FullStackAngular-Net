@@ -13,7 +13,7 @@ export class CompartidoService {
     this._snackBar.open(mensaje, tipo, {
       horizontalPosition: "end",
       verticalPosition:"top",
-      duration:8000
+      duration:3000
     })
   }
 
