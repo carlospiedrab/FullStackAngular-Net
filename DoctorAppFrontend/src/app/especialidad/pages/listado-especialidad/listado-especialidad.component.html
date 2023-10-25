@@ -1,0 +1,63 @@
+<h1 class="m-2">Especialidades</h1>
+<div class="content">
+  <mat-card class="m-2">
+    <mat-card-title>
+      <button mat-raised-button color="primary" (click)="nuevoEspecialidad()" class="m-2">
+        <mat-icon mat-list-icon>add</mat-icon>Nuevo
+      </button>
+    </mat-card-title>
+    <mat-divider></mat-divider>
+
+    <mat-card-content class="mt-2">
+
+      <mat-form-field style="width: 100%;;">
+        <mat-label>Buscar</mat-label>
+        <input matInput (keyup)="aplicarFiltroListado($event)" placeholder="Filtro" #input>
+      </mat-form-field>
+
+      <div class="mat-elevation-z8" style="overflow-x: auto;">
+        <table mat-table [dataSource]="dataSource">
+
+
+          <ng-container matColumnDef="nombreEspecialidad">
+            <th mat-header-cell *matHeaderCellDef> Nombre </th>
+            <td mat-cell *matCellDef="let element"> {{element.nombreEspecialidad}} </td>
+          </ng-container>
+          <ng-container matColumnDef="descripcion">
+            <th mat-header-cell *matHeaderCellDef> Descripcion </th>
+            <td mat-cell *matCellDef="let element"> {{element.descripcion}} </td>
+          </ng-container>
+          <ng-container matColumnDef="estado">
+            <th mat-header-cell *matHeaderCellDef> Estado </th>
+            <td mat-cell *matCellDef="let element"> {{element.estado ==1 ? 'Activo' : 'Inactivo'}} </td>
+          </ng-container>
+          <ng-container matColumnDef="acciones">
+            <th mat-header-cell *matHeaderCellDef> Acciones </th>
+            <td mat-cell *matCellDef="let element">
+              <button mat-icon-button color="primary" (click)="editarEspecialidad(element)">
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button mat-icon-button color="warn" (click)="removerEspecialidad(element)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+          <tr class="mat-row" *matNoDataRow>
+            <td class="mat-cell" colspan="4">No hay datos que coincidan con el filtro "{{input.value}}"</td>
+          </tr>
+
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Seleccione Especialidades">
+        </mat-paginator>
+      </div>
+
+    </mat-card-content>
+
+  </mat-card>
+</div>

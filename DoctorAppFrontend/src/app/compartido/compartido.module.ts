@@ -8,21 +8,14 @@ import { MaterialModule } from '../material/material.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { LayoutRoutingModule } from './layout-routing.module';
 
-
-
 @NgModule({
-  declarations: [
-    LayoutComponent,
-    DashboardComponent
-  ],
-  imports: [
-    CommonModule,
-    MaterialModule,
-    LayoutRoutingModule
-  ],
+  declarations: [LayoutComponent, DashboardComponent],
+  imports: [CommonModule, MaterialModule, LayoutRoutingModule],
   exports: [
-    ReactiveFormsModule, FormsModule, HttpClientModule,
-   // LayoutComponent, DashboardComponent
-  ]
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    // LayoutComponent, DashboardComponent
+  ],
 })
-export class CompartidoModule { }
+export class CompartidoModule {}

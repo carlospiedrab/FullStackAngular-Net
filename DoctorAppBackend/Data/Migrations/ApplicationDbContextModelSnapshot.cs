@@ -54,6 +54,57 @@ namespace Data.Migrations
                     b.ToTable("Especialidades");
                 });
 
+            modelBuilder.Entity("Models.Entidades.Medico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Apellidos")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("EspecialidadId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Estado")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("char");
+
+                    b.Property<string>("Nombres")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<string>("Telefono")
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EspecialidadId");
+
+                    b.ToTable("Medicos");
+                });
+
             modelBuilder.Entity("Models.Entidades.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -74,6 +125,17 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Models.Entidades.Medico", b =>
+                {
+                    b.HasOne("Models.Entidades.Especialidad", "Especialidad")
+                        .WithMany()
+                        .HasForeignKey("EspecialidadId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Especialidad");
                 });
 #pragma warning restore 612, 618
         }

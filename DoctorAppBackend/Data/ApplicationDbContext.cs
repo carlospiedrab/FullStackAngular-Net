@@ -18,6 +18,8 @@ namespace Data
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Especialidad> Especialidades { get; set; }
 
+        public DbSet<Medico> Medicos { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
