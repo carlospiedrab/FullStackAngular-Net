@@ -25,8 +25,8 @@ namespace Models.Entidades
         [StringLength(100, MinimumLength = 1, ErrorMessage = "Nombres debe ser Minimo 1 Maximo 100 caracteres")]
         public string Direccion { get; set; }
 
-        
-        [StringLength(40, MinimumLength = 1, ErrorMessage = "Telefono debe ser Minimo 1 Maximo 40 caracteres")]
+
+        [MaxLength(40)]
         public string Telefono { get; set; }
 
         [Required(ErrorMessage = "Genero es Requerido")]      
