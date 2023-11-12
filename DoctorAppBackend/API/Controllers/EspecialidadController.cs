@@ -1,10 +1,12 @@
 ﻿using BLL.Servicios.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models.DTOs;
 using System.Net;
 
 namespace API.Controllers
 {
+    [Authorize(Policy ="AdminAgendadorRol")]
     public class EspecialidadController : BaseApiController
     {
         private readonly IEspecialidadServicio _especialidadServicio;

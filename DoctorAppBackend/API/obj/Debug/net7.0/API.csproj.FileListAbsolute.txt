@@ -85,3 +85,9 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Utilidades.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\BLL.pdb
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Utilidades.pdb
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
