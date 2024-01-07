@@ -67,7 +67,7 @@ export class ModalEspecialidadComponent implements OnInit{
                                                      'Error!');
          },
          error: (e) => {
-          this._compartidoServicio.mostrarAlerta(e.error.errores,
+          this._compartidoServicio.mostrarAlerta(e.error.mensaje,
                                                      'Error!');
          }
        })
@@ -87,7 +87,10 @@ export class ModalEspecialidadComponent implements OnInit{
              this._compartidoServicio.mostrarAlerta('No se pudo actualizar la especialidad',
                                                      'Error!');
          },
-         error: (e) => {}
+         error: (e) => {
+          this._compartidoServicio.mostrarAlerta(e.error.mensaje,
+                                                     'Error!');
+         }
        })
     }
   }

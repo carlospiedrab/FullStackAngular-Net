@@ -1,0 +1,66 @@
+
+<h2 mat-dialog-title>{{titulo}} Usuario</h2>
+
+<mat-dialog-content>
+
+  <form [formGroup]="formUsuario">
+    <div class="row mt-2">
+      <div class="col-6">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Username</mat-label>
+          <input formControlName="username" matInput autocomplete="off">
+        </mat-form-field>
+      </div>
+      <div class="col-6">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Password</mat-label>
+          <input formControlName="password" matInput autocomplete="off" type="password">
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-6">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Apellidos</mat-label>
+          <input formControlName="apellidos" matInput autocomplete="off">
+        </mat-form-field>
+      </div>
+      <div class="col-6">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Nombres</mat-label>
+          <input formControlName="nombres" matInput autocomplete="off">
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Email</mat-label>
+            <input formControlName="email" matInput autocomplete="off" type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <div *ngIf="email?.touched">
+                <p *ngIf="email?.errors?.['pattern']">Email No Valido</p>
+              </div>
+          </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Rol</mat-label>
+          <mat-select formControlName="rol">
+            <mat-option *ngFor="let item of listaRoles" [value]="item.nombreRol">
+              {{item.nombreRol}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-raised-button mat-dialog-close="true" color="warn">Volver</button>
+  <button mat-raised-button color="primary" [disabled]="formUsuario.invalid"
+     (click)="registrarUsuario()">{{nombreBoton}}</button>
+</mat-dialog-actions>

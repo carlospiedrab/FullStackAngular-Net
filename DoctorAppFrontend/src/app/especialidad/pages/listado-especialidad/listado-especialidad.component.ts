@@ -57,7 +57,6 @@ export class ListadoEspecialidadComponent implements OnInit, AfterViewInit {
     this._especialidadServicio.lista().subscribe({
       next: (data) => {
         if (data.isExitoso) {
-          
           this.dataSource = new MatTableDataSource(data.resultado);
           this.dataSource.paginator = this.paginator;
         } else
@@ -66,7 +65,9 @@ export class ListadoEspecialidadComponent implements OnInit, AfterViewInit {
             'Advertencia!'
           );
       },
-      error: (e) => {},
+      error: (e) => {
+        this._compartidoService.mostrarAlerta(e.error.mensaje, 'Error!');
+      },
     });
   }
 
@@ -97,7 +98,9 @@ export class ListadoEspecialidadComponent implements OnInit, AfterViewInit {
               );
             }
           },
-          error: (e) => {},
+          error: (e) => {
+             this._compartidoService.mostrarAlerta(e.error.mensaje, 'Error!');
+          },
         });
       }
     });

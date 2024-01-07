@@ -18,13 +18,13 @@ export class CompartidoService {
   }
 
   guardarSesion(sesion: Sesion) {
-      localStorage.setItem("usuarioSesion",JSON.stringify(sesion));
+      localStorage.setItem("usuarioSesion",JSON.stringify(sesion.username));
   }
 
   obtenerSesion() {
     const sesionString = localStorage.getItem("usuarioSesion");
-    const usuarioToken = JSON.parse(sesionString!);
-    return usuarioToken;
+    const usuarioSesion = JSON.parse(sesionString!);
+    return usuarioSesion;
   }
 
   eliminarSesion(){

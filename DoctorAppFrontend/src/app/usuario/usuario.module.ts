@@ -4,12 +4,16 @@ import { CompartidoModule } from '../compartido/compartido.module';
 import { UsuarioService } from './servicios/usuario.service';
 import { LoginComponent } from './login/login.component';
 import { MaterialModule } from '../material/material.module';
+import { ListadoUsuarioComponent } from './pages/listado-usuario/listado-usuario.component';
+import { ModalUsuarioComponent } from './modales/modal-usuario/modal-usuario.component';
 
 
 
 @NgModule({
   declarations: [
-    LoginComponent
+    LoginComponent,
+    ListadoUsuarioComponent,
+    ModalUsuarioComponent
   ],
   imports: [
     CommonModule,
