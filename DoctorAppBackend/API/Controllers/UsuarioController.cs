@@ -50,6 +50,26 @@ namespace API.Controllers
             return Ok(_response);
         }
 
+        [Authorize(Policy = "AdminRol")]
+        [HttpGet("{username}")]  // api/usuario
+        public async Task<ActionResult> GetPerfil(string username)
+        {
+            var usuario = await _userManager.Users.FirstOrDefaultAsync(u => u.UserName == username);
+
+            if (usuario is null) return NotFound();
+
+            _response.Resultado = new UsuarioListaDto {                
+                Username = usuario.UserName,
+                Email = usuario.Email,
+                Apellidos=usuario.Apellidos,
+                Nombres=usuario.Nombres,
+                Rol = string.Join(",", _userManager.GetRolesAsync(usuario).Result.ToArray())
+
+            };
+            _response.IsExitoso = true;
+            _response.StatusCode = HttpStatusCode.OK;
+            return Ok(_response);
+        }
 
         //[Authorize]
         //[HttpGet("{id}")]  //  api/usuario/1

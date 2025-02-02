@@ -25,6 +25,12 @@ namespace Data
 
         public DbSet<Medico> Medicos { get; set; }
 
+        public DbSet<Paciente> Pacientes { get; set; }
+
+        public DbSet<HistoriaClinica> HistoriasClinicas { get; set; }
+
+        public DbSet<Antecedente> Antecedentes { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

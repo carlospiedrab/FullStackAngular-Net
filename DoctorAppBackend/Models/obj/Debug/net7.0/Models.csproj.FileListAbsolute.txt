@@ -10,3 +10,4 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\Models\obj\Debug\net7.0\refint\Models.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\Models\obj\Debug\net7.0\Models.pdb
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\Models\obj\Debug\net7.0\ref\Models.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\Models\obj\Debug\net7.0\Models.sourcelink.json

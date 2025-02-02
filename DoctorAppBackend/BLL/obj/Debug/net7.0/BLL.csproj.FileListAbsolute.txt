@@ -12,8 +12,9 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\refint\BLL.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.pdb
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\ref\BLL.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.sourcelink.json
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\BLL\obj\Debug\net7.0\BLL.csproj.Up2Date

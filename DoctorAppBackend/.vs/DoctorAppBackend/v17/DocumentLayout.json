@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0EFE5A3-8342-425B-9C19-2CA377222C81}|Data\\Data.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\data\\inicializador\\dbinicializador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0EFE5A3-8342-425B-9C19-2CA377222C81}|Data\\Data.csproj|solutionrelative:data\\inicializador\\dbinicializador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD578DE-C1C8-4AD9-A5F0-20723DF75A4E}|API\\API.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\api\\controllers\\historiaclinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD578DE-C1C8-4AD9-A5F0-20723DF75A4E}|API\\API.csproj|solutionrelative:api\\controllers\\historiaclinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD578DE-C1C8-4AD9-A5F0-20723DF75A4E}|API\\API.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\api\\extensiones\\servicioaplicacionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD578DE-C1C8-4AD9-A5F0-20723DF75A4E}|API\\API.csproj|solutionrelative:api\\extensiones\\servicioaplicacionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7EC51D8-97DF-4199-880C-6E1F135BBDFC}|BLL\\BLL.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\bll\\servicios\\historiaclinicaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7EC51D8-97DF-4199-880C-6E1F135BBDFC}|BLL\\BLL.csproj|solutionrelative:bll\\servicios\\historiaclinicaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7EC51D8-97DF-4199-880C-6E1F135BBDFC}|BLL\\BLL.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\bll\\servicios\\interfaces\\ihistoriaclinicaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7EC51D8-97DF-4199-880C-6E1F135BBDFC}|BLL\\BLL.csproj|solutionrelative:bll\\servicios\\interfaces\\ihistoriaclinicaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF7DDEF-F311-4FC5-9635-11CDBF6BA63B}|Utilidades\\Utilidades.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\utilidades\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF7DDEF-F311-4FC5-9635-11CDBF6BA63B}|Utilidades\\Utilidades.csproj|solutionrelative:utilidades\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\models\\dtos\\historiaclinicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|solutionrelative:models\\dtos\\historiaclinicadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\models\\entidades\\antecedente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|solutionrelative:models\\entidades\\antecedente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|c:\\users\\admin\\documents\\baezstone\\udemy\\fullstackangularnetcore\\proyecto\\doctorapp\\doctorappbackend\\models\\entidades\\historiaclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42A4F9E8-1CB2-430A-9E9C-E9B8F60E4D8F}|Models\\Models.csproj|solutionrelative:models\\entidades\\historiaclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0EFE5A3-8342-425B-9C19-2CA377222C81}|Data\\Data.csproj|C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\data\\repositorio\\unidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0EFE5A3-8342-425B-9C19-2CA377222C81}|Data\\Data.csproj|solutionrelative:data\\repositorio\\unidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbInicializador.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Data\\Inicializador\\DbInicializador.cs",
+              "RelativeDocumentMoniker": "Data\\Inicializador\\DbInicializador.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Data\\Inicializador\\DbInicializador.cs",
+              "RelativeToolTip": "Data\\Inicializador\\DbInicializador.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:29:54.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoriaClinicaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\HistoriaClinicaController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\HistoriaClinicaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\API\\Controllers\\HistoriaClinicaController.cs",
+              "RelativeToolTip": "API\\Controllers\\HistoriaClinicaController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:58:06.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioAplicacionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "RelativeDocumentMoniker": "API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "RelativeToolTip": "API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:01:56.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HistoriaClinicaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\BLL\\Servicios\\HistoriaClinicaServicio.cs",
+              "RelativeDocumentMoniker": "BLL\\Servicios\\HistoriaClinicaServicio.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\BLL\\Servicios\\HistoriaClinicaServicio.cs",
+              "RelativeToolTip": "BLL\\Servicios\\HistoriaClinicaServicio.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAcwHcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:37:11.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHistoriaClinicaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\BLL\\Servicios\\Interfaces\\IHistoriaClinicaServicio.cs",
+              "RelativeDocumentMoniker": "BLL\\Servicios\\Interfaces\\IHistoriaClinicaServicio.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\BLL\\Servicios\\Interfaces\\IHistoriaClinicaServicio.cs",
+              "RelativeToolTip": "BLL\\Servicios\\Interfaces\\IHistoriaClinicaServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:35:41.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Utilidades\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Utilidades\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Utilidades\\MappingProfile.cs",
+              "RelativeToolTip": "Utilidades\\MappingProfile.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:52:36.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Antecedente.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\Entidades\\Antecedente.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Antecedente.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\Entidades\\Antecedente.cs",
+              "RelativeToolTip": "Models\\Entidades\\Antecedente.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:14:08.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistoriaClinica.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\Entidades\\HistoriaClinica.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\HistoriaClinica.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\Entidades\\HistoriaClinica.cs",
+              "RelativeToolTip": "Models\\Entidades\\HistoriaClinica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:08:32.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoriaClinicaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\DTOs\\HistoriaClinicaDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\HistoriaClinicaDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Models\\DTOs\\HistoriaClinicaDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\HistoriaClinicaDto.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:08:02.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnidadTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Data\\Repositorio\\UnidadTrabajo.cs",
+              "RelativeDocumentMoniker": "Data\\Repositorio\\UnidadTrabajo.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\FullStackAngularNetCore\\Proyecto\\DoctorApp\\DoctorAppBackend\\Data\\Repositorio\\UnidadTrabajo.cs",
+              "RelativeToolTip": "Data\\Repositorio\\UnidadTrabajo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T22:01:56.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

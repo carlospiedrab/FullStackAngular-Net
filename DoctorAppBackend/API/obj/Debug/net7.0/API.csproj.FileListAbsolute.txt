@@ -29,7 +29,6 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
-C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\API.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\refint\API.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\API.pdb
@@ -91,3 +90,5 @@ C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\Doctor
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\API.sourcelink.json
+C:\Users\Admin\Documents\BaezStone\Udemy\FullStackAngularNetCore\Proyecto\DoctorApp\DoctorAppBackend\API\obj\Debug\net7.0\API.csproj.Up2Date

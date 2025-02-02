@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models.DTOs;
 using System.Net;
+using System.Security.Claims;
 
 namespace API.Controllers
 {
@@ -21,6 +22,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+
             try
             {
                 _response.Resultado = await _especialidadServicio.ObtenerTodos();

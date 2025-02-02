@@ -110,6 +110,35 @@ namespace Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Models.Entidades.Antecedente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("HistoriaClinicaId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Observacion")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HistoriaClinicaId");
+
+                    b.ToTable("Antecedentes");
+                });
+
             modelBuilder.Entity("Models.Entidades.Especialidad", b =>
                 {
                     b.Property<int>("Id")
@@ -140,6 +169,29 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Especialidades");
+                });
+
+            modelBuilder.Entity("Models.Entidades.HistoriaClinica", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PacienteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PacienteId")
+                        .IsUnique();
+
+                    b.ToTable("HistoriasClinicas");
                 });
 
             modelBuilder.Entity("Models.Entidades.Medico", b =>
@@ -191,6 +243,62 @@ namespace Data.Migrations
                     b.HasIndex("EspecialidadId");
 
                     b.ToTable("Medicos");
+                });
+
+            modelBuilder.Entity("Models.Entidades.Paciente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("ActualizadoPorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Apellidos")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<int?>("CreadoPorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("Estado")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasMaxLength(1)
+                        .HasColumnType("char");
+
+                    b.Property<string>("Nombres")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<string>("Telefono")
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActualizadoPorId");
+
+                    b.HasIndex("CreadoPorId");
+
+                    b.ToTable("Pacientes");
                 });
 
             modelBuilder.Entity("Models.Entidades.RolAplicacion", b =>
@@ -380,6 +488,28 @@ namespace Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Models.Entidades.Antecedente", b =>
+                {
+                    b.HasOne("Models.Entidades.HistoriaClinica", "HistoriaClinica")
+                        .WithMany()
+                        .HasForeignKey("HistoriaClinicaId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("HistoriaClinica");
+                });
+
+            modelBuilder.Entity("Models.Entidades.HistoriaClinica", b =>
+                {
+                    b.HasOne("Models.Entidades.Paciente", "Paciente")
+                        .WithOne("HistoriaClinica")
+                        .HasForeignKey("Models.Entidades.HistoriaClinica", "PacienteId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Paciente");
+                });
+
             modelBuilder.Entity("Models.Entidades.Medico", b =>
                 {
                     b.HasOne("Models.Entidades.Especialidad", "Especialidad")
@@ -389,6 +519,23 @@ namespace Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Especialidad");
+                });
+
+            modelBuilder.Entity("Models.Entidades.Paciente", b =>
+                {
+                    b.HasOne("Models.Entidades.UsuarioAplicacion", "ActualizadoPor")
+                        .WithMany()
+                        .HasForeignKey("ActualizadoPorId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Models.Entidades.UsuarioAplicacion", "CreadoPor")
+                        .WithMany()
+                        .HasForeignKey("CreadoPorId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("ActualizadoPor");
+
+                    b.Navigation("CreadoPor");
                 });
 
             modelBuilder.Entity("Models.Entidades.RolUsuarioAplicacion", b =>
@@ -416,6 +563,11 @@ namespace Data.Migrations
                     b.Navigation("RoleAplicacion");
 
                     b.Navigation("UsuarioAplicacion");
+                });
+
+            modelBuilder.Entity("Models.Entidades.Paciente", b =>
+                {
+                    b.Navigation("HistoriaClinica");
                 });
 
             modelBuilder.Entity("Models.Entidades.RolAplicacion", b =>

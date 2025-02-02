@@ -70,6 +70,8 @@ namespace API.Extensiones
 
             services.AddScoped<IEspecialidadServicio, EspecialidadServicio>();
             services.AddScoped<IMedicoServicio, MedicoServicio>();
+            services.AddScoped<IHistoriaClinicaServicio, HistoriaClinicaServicio>();
+
 
             return services;
         }
